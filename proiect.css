@@ -1,0 +1,101 @@
+body {
+    background-color: red;
+   
+  }
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+    color: blue;
+  }
+}
+
+
+
+h1 {
+	text-align: center;
+	color: yellow;
+	font-family: "Source Sans Pro Black";
+	font-size: 50px;
+	border-style: double;
+	border-width: 5px;}
+
+
+
+ul.M>li{
+	vertical-align: top;
+	display: inline-block;
+	width: 22%;
+	color: yellow;
+	display:inline-block;
+	font-family: "Source Sans Pro Black";
+	animation-name: example;
+  animation-duration: 4s;
+	}
+nav<ul.M{
+ position: sticky;
+  padding: 5px;
+  border: 2px solid yellow;
+}	
+
+@keyframes example {
+  from {font-size: 15px;}
+  
+}	
+li#x {
+
+	color: yellow;
+	font-size: 50px;
+	border-style: double;
+	border-width: 5px;
+}	
+
+ul.M ul{visibility: hidden;}
+li:hover ul{visibility: visible;}
+
+li {list-style-type: none;}
+
+p{color: rgb(255, 211, 0);
+	font-size:20px;
+	text-align: center;
+	word-wrap: normal;}
+	
+h2 {color: yellow;
+	text-align: center;}
+
+img#a { width: 650px;}
+		
+img#b { width: 720px;}
+
+hr { 
+  margin-top: 27.5em;
+  margin-bottom: 2em;
+} 
+
+ol#c>li{color: white;
+		text-align: center;
+		font-style: "Source Sans Pro Black";
+		font-size: 18px;}
+		
+h3 {color: yellow;
+	text-align:center;
+	border: 2px solid yellow;}
+		
+ul#myList>li{
+	color: white;
+	text-align: center;
+	font-style: "Source Sans Pro Black";
+	font-size: 18px;
+	}
+		
+nav>ul.M>li>a {color: yellow;}	
+
+form {text-align: center;
+	font-size:5vh;
+	color:yellow;
+
+footer>p#y{
+text-align: center;
+color: black;}
+

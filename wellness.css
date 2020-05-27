@@ -1,0 +1,39 @@
+h2{
+font-size: 50px;
+text-align:center;
+color: yellow;}
+
+body{background-image: url("backgroundWellness.jpg");}	
+
+p{color: rgb(255, 211, 0);
+	font-size:20px;
+	text-align: center;}
+
+figure>img{
+ width: 650px;
+ lenght: 650px;
+  display: inline-block;}
+  
+ul#a{ color: white;
+text-align: center;
+font-size:17.5 px;
+
+.mystyle {
+  color: white;
+  font-size: 25px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex>div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}

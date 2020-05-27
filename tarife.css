@@ -1,0 +1,53 @@
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+table{
+background-color:yellow;
+font-size:20px;
+opacity: 0.6;
+
+}
+
+body{
+background-image: url("backgroundTarife.jpeg");;}
+
+h2{
+font-size: 50px;
+text-align:center;
+color: yellow;}
+
+tr>td{
+text-align: center;}
+
+p {font-size: 20px;
+font-family: "Source Sans Pro Black";
+text-align: center;}
+
+p#l{color:white;}
+
+tr:nth-child(odd) {
+  background: RGB(255,210,0);
+
+h1 {
+	text-align: center;
+	color: yellow;
+	font-family: "Source Sans Pro Black";
+	font-size: 50px;
+	border-style: double;
+	border-width: 5px;}
+	
+h1 > a{color: yellow;}
+}
+
+a[target] {
+  background-color: yellow;
+}
+
+p#demo{
+	color: red;
+
+}
